@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.MagmaBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
 
-@Mixin(value = MagmaBlock.class, priority = 1004)
+@Mixin(value = MagmaBlock.class, priority = 500)
 public abstract class MagmaBlockMixin extends Block {
     public MagmaBlockMixin(Properties properties) {
         super(properties);
